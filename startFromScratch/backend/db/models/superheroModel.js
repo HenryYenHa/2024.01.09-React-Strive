@@ -23,3 +23,7 @@ export const listSuperHeroes = async (superhero) => {
   const allSuperHeroes = await Superhero.find();
   return allSuperHeroes;
 };
+
+export const deleteMistake = async (superhero) => {
+  // const killThisOne = await Superhero.find(alterEgo:"The guy with a mask XD")
+};
